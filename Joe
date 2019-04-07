@@ -6,7 +6,7 @@ plt.rcParams['figure.figsize'] = (16, 9)
 plt.style.use('ggplot')
 
 # Importing the dataset
-data = pd.read_csv('xclara.csv')
+data = pd.read_csv('housingdata.csv')
 print("Input Data and Shape")
 print(data.shape)
 data.head()
